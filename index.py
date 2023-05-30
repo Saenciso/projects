@@ -62,7 +62,7 @@ def delete_note():
 # Function for prompting user for password and verifying
 def check_password():
     password = getpass.getpass("Enter password to access notes: ")
-    if password == "mytiff":
+    if password == "1447":
         return True
     else:
         print("Incorrect password.")
